@@ -8,29 +8,30 @@
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;
-  background-color: #f4f4f4;
+  background-color: #f9f9f9;
   color: #333;
   transition: background 0.3s, color 0.3s;
 }
 
 body.dark {
   background: #121212;
-  color: #f4f4f4;
+  color: #fff;
 }
 
+/* Cambios en el fondo, colores más vivos */
 a {
-  color: #ff4081;
+  color: #ff5733;
   text-decoration: none;
   transition: color 0.3s;
 }
 
 a:hover {
-  color: #e91e63;
+  color: #f3b6b3;
 }
 
 /* Header */
 .main-header {
-  background-color: #ff4081;
+  background-color: #ff5733;
   color: white;
   padding: 1.5rem 2rem;
   box-shadow: 0 2px 5px rgba(0,0,0,0.2);
@@ -69,7 +70,7 @@ a:hover {
 /* Hero */
 .hero {
   padding: 4rem 2rem;
-  background: linear-gradient(135deg, #ff4081, #e91e63);
+  background: linear-gradient(135deg, #ff5733, #f3b6b3);
   text-align: center;
   color: white;
 }
@@ -124,7 +125,7 @@ body.dark .tarjeta {
   display: inline-block;
   margin: 1rem;
   font-weight: 600;
-  color: #ff4081;
+  color: #ff5733;
 }
 
 body.dark .tarjeta p {
@@ -146,9 +147,10 @@ footer {
 }
 
 footer a {
-  color: #ff4081;
+  color: #ff5733;
 }
 
 footer a:hover {
   color: #e91e63;
 }
+
